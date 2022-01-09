@@ -1,0 +1,18 @@
+/* VARIABLES BODY */
+$bodyBackgroundColor: #202124;
+$bodyFontFamily: 'Ubuntu', sans-serif;
+
+/* VARIABLES HEADER */
+$hoverBackgroundColor: #dc3545;
+
+/* MIXIN PARA MANEJAR TEXTOS */
+@mixin texto($colorTexto, $fontWeight, $lineHeight, $fontStyle, $marginTop, $marginBottom, $marginRight){
+
+    color: $colorTexto;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    font-style: $fontStyle;
+    margin-top: $marginTop;
+    margin-bottom: $marginBottom;
+    margin-right: $marginRight;    
+}

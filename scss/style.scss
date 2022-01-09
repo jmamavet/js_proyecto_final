@@ -1,0 +1,149 @@
+@import "variables.scss";
+
+/*ESTILOS GENERALES*/
+
+body{
+    background-color: $bodyBackgroundColor;
+    font-family: $bodyFontFamily;
+    
+    main{
+        margin-top: 3%;
+        margin-bottom: 2%;
+        h1{
+            margin-bottom: 3%;
+        }        
+        p{
+            margin-bottom: 0px;
+        }
+        
+    }    
+
+    img{
+        max-width: 100%;        
+    }
+}
+
+/*ESTILOS HEADER*/
+
+.menuLogo:hover{
+    animation-name: menuLogo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes menuLogo{
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.nav-link:hover {
+    background-color: $hoverBackgroundColor;    
+}
+
+/* ESTILOS PARA TEXTO */
+
+#articles{
+    @include texto(#e8eaed, 400, 1.6, normal, 0%, 0%, 0%)
+}
+
+#fechaShowIndex{
+    @include texto(#e8eaed, 800, 1.6, normal, 0%, 0%, 5%)
+}
+
+#fechaShowNoticia{
+    @include texto(#e8eaed, 800, 0, italic, 2%, 2%, 0%)
+}
+
+#formLabel{
+    @include texto(#e8eaed, 0, 1.5, normal, 0%, 0%, 0%)
+}
+
+/* ESTILOS INDEX */
+
+.show{
+    margin-bottom: 4%;
+}
+
+#cantidadEntradas{
+    margin-bottom: 6%;
+}
+
+/* ESTILOS SHOWS */
+
+.videoShows{
+    margin-top: 4%;
+}
+
+/* ESTILOS NOTICIAS */
+
+.carousel{
+    margin-bottom: 2%;
+}
+
+/* ESTILOS QUIENES SOMOS */
+
+.quienesSomos{
+    margin-bottom: 4%
+}
+
+/* ESTILOS CONTACTO */
+
+.contacto{
+    margin-bottom: 4%
+}
+
+/* ESTILOS FOOTER */
+
+.footer__logo{
+    height: 45px;
+    width: auto;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 992px) {
+
+    // PAUSA ANIMACION DE LOGO EN MOBILE Y TABLET
+    .pausaAnimacion{
+        animation-play-state: paused;
+    }
+
+    // AGREGA MARGEN A SPOTIFY Y TWITTER EN MOBILE Y TABLET
+    .redes{
+        margin-top: 5%;
+    }
+
+    // QUITA COLOR EN HOVER A LOS LINKS DEL HEADER EN MOBILE Y TABLET
+    .nav-link:hover{
+        background-color: transparent;    
+    }
+
+    // AGREGA MÁS MARGEN A FECHAS DE NOTICIAS EN MOBILE Y TABLET
+    #fechaShowNoticia{
+        margin-bottom: 5%;
+    }
+
+    // AGREGA MÁS MARGEN A ARTICLES EN MOBILE Y TABLET
+    #articles{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    // AGREGA MÁS MARGEN AL FORM DE CONTACTO EN MOBILE Y TABLET
+    #formLabel{
+        margin-top: 3%;
+    }
+}

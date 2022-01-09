@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "fechaRecital": "15/02/2022",
+        "ubicacion": "General",
+        "precio": 15
+    },
+    {
+        "id": 2,
+        "fechaRecital": "15/02/2022",
+        "ubicacion": "Campo",
+        "precio": 35
+    },
+    {
+        "id": 3,
+        "fechaRecital": "15/02/2022",
+        "ubicacion": "Platea Oeste",
+        "precio": 50
+    },
+    {
+        "id": 4,
+        "fechaRecital": "15/02/2022",
+        "ubicacion": "Platea Este",
+        "precio": 50
+    },
+    {
+        "id": 5,
+        "fechaRecital": "15/02/2022",
+        "ubicacion": "Campo VIP",
+        "precio": 100
+    },
+    {
+        "id": 6,
+        "fechaRecital": "18/02/2022",
+        "ubicacion": "General",
+        "precio": 15
+    },
+    {
+        "id": 7,
+        "fechaRecital": "18/02/2022",
+        "ubicacion": "Campo",
+        "precio": 35
+    },
+    {
+        "id": 8,
+        "fechaRecital": "18/02/2022",
+        "ubicacion": "Platea Oeste",
+        "precio": 50
+    },
+    {
+        "id": 9,
+        "fechaRecital": "18/02/2022",
+        "ubicacion": "Platea Este",
+        "precio": 50
+    },
+    {
+        "id": 10,
+        "fechaRecital": "18/02/2022",
+        "ubicacion": "Campo VIP",
+        "precio": 100
+    },
+    {
+        "id": 11,
+        "fechaRecital": "21/02/2022",
+        "ubicacion": "General",
+        "precio": 15
+    },
+    {
+        "id": 12,
+        "fechaRecital": "21/02/2022",
+        "ubicacion": "Campo",
+        "precio": 35
+    },
+    {
+        "id": 13,
+        "fechaRecital": "21/02/2022",
+        "ubicacion": "Platea Oeste",
+        "precio": 50
+    },
+    {
+        "id": 14,
+        "fechaRecital": "21/02/2022",
+        "ubicacion": "Platea Este",
+        "precio": 50
+    },
+    {
+        "id": 15,
+        "fechaRecital": "21/02/2022",
+        "ubicacion": "Campo VIP",
+        "precio": 100
+    },
+    {
+        "id": 16,
+        "fechaRecital": "24/02/2022",
+        "ubicacion": "General",
+        "precio": 15
+    },
+    {
+        "id": 17,
+        "fechaRecital": "24/02/2022",
+        "ubicacion": "Campo",
+        "precio": 35
+    },
+    {
+        "id": 18,
+        "fechaRecital": "24/02/2022",
+        "ubicacion": "Platea Oeste",
+        "precio": 50
+    },
+    {
+        "id": 19,
+        "fechaRecital": "24/02/2022",
+        "ubicacion": "Platea Este",
+        "precio": 50
+    },
+    {
+        "id": 20,
+        "fechaRecital": "24/02/2022",
+        "ubicacion": "Campo VIP",
+        "precio": 100
+    }
+]
